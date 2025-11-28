@@ -1,0 +1,12 @@
+#Section 2
+Get-Process -Name *chrome*
+Get-Process -Name chrome -FileVersionInfo
+
+Start-Process -FilePath "..."
+Test-Connection -ComputerName google.com -Quiet
+
+Get-Help <command>
+Get-Help Get-Random -Examples
+Get-Random -?
+
+Set-Alias tc Test-Connection
